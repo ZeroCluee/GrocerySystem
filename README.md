@@ -26,18 +26,10 @@ To use the Grocery Billing System, follow these steps:
 
 Clone the repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/your-username/grocery-billing-system.git
+git clone https://github.com/ZeroCluee/GrocerySystem.git
 Navigate to the project directory:
-
-bash
-Copy code
-cd grocery-billing-system
 Compile the source code files (main.c, user.c, grocery.c) using a C compiler such as GCC:
 
-bash
-Copy code
 gcc main.c user.c grocery.c -o grocery
 2. Usage
 To run the program, execute the compiled executable:
@@ -62,9 +54,3 @@ Choose items from the menu and specify quantities to add them to your shopping l
 After selecting all desired items, the program will calculate and display the total bill amount.
 
 Choose the exit option from the menu to close the program.
-
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
