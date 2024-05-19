@@ -1,56 +1,75 @@
-Grocery Billing System
-This is a simple grocery billing system implemented in C. The program allows users to create a login, choose items from a menu, specify quantities, and calculate the total bill amount.
+# Grocery System
 
-Table of Contents
-Features
-How to Use
-1. Installation
-2. Usage
-Example
-Contributing
-License
-Features
-User Authentication: Users can create an account with a username, password, and customer ID. They can then log in with their credentials to access the system.
+This is a simple grocery billing system implemented in C.
 
-Menu Selection: The program displays a menu of grocery items, including rice, bread, milk, and eggs. Users can select items from the menu to add to their shopping list.
+## Description
 
-Quantity Selection: After choosing an item, users can specify the quantity they wish to purchase.
+The Grocery System allows users to register, login, select items from a menu, specify quantities, and generate a bill. It has been implemented in multiple phases, each adding new features and improvements.
 
-Bill Calculation: The program calculates the total bill amount based on the selected items and quantities.
+## Features
 
-Exit Option: Users can exit the program at any time by choosing the exit option from the menu.
+### Phase 1:
+- **User Authentication:** Users can register and login to their accounts.
+- **Item Selection:** Users can choose items from a menu.
+- **Quantity Selection:** Users can specify the quantity of each item.
+- **Total Bill Calculation:** The system calculates the total bill based on the selected items and quantities.
 
-How to Use
-1. Installation
-To use the Grocery Billing System, follow these steps:
+### Phase 2:
+- **Structural Organization:** User data and shopping lists are organized using structures for better management.
+- **Dynamic Memory Allocation:** Memory is allocated dynamically for storing user data and shopping lists.
+- **String Matching:** String matching is implemented for user authentication and item selection.
+- **File Handling:** User data and shopping lists are stored and retrieved from files.
+- **Search Operation:** Users can search for items in the menu.
 
-Clone the repository to your local machine:
+### Phase 3 (New Features):
+- **Enhanced File Handling:** File handling capabilities are improved to support storing user data and shopping lists.
+- **Merging Phases:** Code from previous phases is merged to create a comprehensive grocery system.
+- **Detailed README:** The README file provides detailed explanations about the features used in the code, including structs, file handling, lists, strings, etc.
 
-git clone https://github.com/ZeroCluee/GrocerySystem.git
-Navigate to the project directory:
-Compile the source code files (main.c, user.c, grocery.c) using a C compiler such as GCC:
+## Usage
 
-gcc main.c user.c grocery.c -o grocery
-2. Usage
-To run the program, execute the compiled executable:
+1. **Registration and Login:**
+    - Users can register with a username and password.
+    - Registered users can log in to their accounts.
 
-bash
-Copy code
-./grocery
-Follow the on-screen prompts to create a new account or log in with existing credentials. Once logged in, you can select items from the menu, specify quantities, and calculate the total bill amount. Use the exit option from the menu to close the program.
+2. **Item Selection:**
+    - Users can select items from the menu by entering the corresponding item number.
 
-Example
-Here's an example of how to use the Grocery Billing System:
+3. **Quantity Selection:**
+    - After selecting an item, users can specify the quantity.
 
-Run the program by executing the compiled executable:
+4. **Total Bill Generation:**
+    - The system calculates the total bill based on the selected items and quantities.
+    - Separate item quantities and prices are displayed before the total bill.
 
-bash
-Copy code
-./grocery
-Create a new account or log in with existing credentials.
+5. **File Handling:**
+    - User data and shopping lists are stored in files for persistence.
+    - Saved shopping lists can be loaded for future reference.
 
-Choose items from the menu and specify quantities to add them to your shopping list.
+## Getting Started
 
-After selecting all desired items, the program will calculate and display the total bill amount.
+To run the Grocery System on your local machine, follow these steps:
 
-Choose the exit option from the menu to close the program.
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/grocery-system.git
+    ```
+
+2. Compile the source code:
+
+    ```bash
+    gcc -o grocery_system make.c user.c grocery.c
+    ```
+
+3. Run the executable:
+
+    ```bash
+    ./grocery_system
+    ```
+
+## Contributors
+
+- Shay V Shah (@shayvshah)
+
+
